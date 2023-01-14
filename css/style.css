@@ -1,0 +1,145 @@
+body{
+    background-color:  #f8f9fa;
+}
+
+
+
+
+
+
+/* start nav sec */
+.navbar{
+    font-family: cursive;
+}
+.navbar:hover{
+    cursor: pointer;
+}
+/* end nav sec */
+
+/* star header sec */
+
+.heder{
+    font-family: cursive;
+}
+
+.hader{
+    height: 400px;
+    margin-top: 100px;
+    background-image: url(../img/pexels-dana-tentis-370799.jpg);
+    size: cover;
+
+}
+.hader h2{
+       width: 50%;
+       font-family: cursive;
+       margin-left: 25%;
+       margin-top: 150px;
+
+
+}
+@media only screen and (max-width:765px){
+
+    .hader{
+        height: 600px;
+    }
+
+}
+
+/* end header sec */
+
+
+/* start info sec */
+.infosec{
+    font-family: cursive;
+
+}
+.infosec h2 , h3{
+    color:hsl(208deg 43% 28%);
+    margin-bottom: 10px;
+}
+.infosec p {
+    color: gray;
+}
+
+.infosecc {
+    font-family: cursive;
+    
+}
+.infosecc h2{
+    color: hsl(208deg 43% 28%) ;
+    margin-top: 90px;
+} 
+
+.infosecc p{
+    color: gray;
+   
+}
+/* end info sec */
+
+/* start dw sec */
+
+.dw{
+    background-image: url(../img/glass.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    margin-top: 40px;
+}
+
+.dw h2{
+    font-family: cursive;
+    font-size: 50px;
+    color: black;
+  
+    
+}
+.dw h2::first-letter{
+    font-size: 70px;
+    color: rgb(187, 57, 57);
+}
+
+.dw h3{
+    font-family: cursive;
+    font-size: 50px;
+    color: black;
+
+}
+
+.dw h3::first-letter{
+    font-size: 70px;
+    color: green;
+
+}
+
+
+.dww{
+    background-image: url(../img/pexels-mnm-zameer-3308588.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    
+}
+
+.dww h2{
+    font-size: 40px;
+    font-family: cursive;
+    margin-top: 100px;
+}
+
+/* end dw sec */
+
+/* start footer sec */
+
+.foot{
+    background-color: black;
+    height: 50px;
+    
+}
+.foot h2{
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+
+
+/* end footer sec */
